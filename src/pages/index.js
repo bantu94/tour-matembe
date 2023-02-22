@@ -3,6 +3,8 @@ import Layout from '../components/Layout';
 import SimpleHero from '../components/SimpleHero';
 import Banner from '../components/Banner';
 import { Link } from 'gatsby';
+import About from '../components/About';
+import Tips from '../components/Tips';
 
 const Home = () => {
   return (
@@ -14,6 +16,8 @@ const Home = () => {
           </Link>
         </Banner>
       </SimpleHero>
+      <About/>
+      <Tips/>
     </Layout>
   )
 }
